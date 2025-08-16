@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#feedback-form {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#feedback-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#feedback-list li {
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    padding: 10px;
+}
